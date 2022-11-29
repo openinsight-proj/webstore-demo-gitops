@@ -6,6 +6,6 @@ version: 0.1.2
 appVersion: "0.4.8"
 dependencies:
 - name: opentelemetry-demo
-  version: 0.4.11
+  version: 0.4.12
   repository: https://openinsight-proj.github.io/openinsight-helm-charts
   condition: opentelemetry-demo.enabled
