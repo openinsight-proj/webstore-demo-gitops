@@ -26,6 +26,14 @@ global:
           image: ghcr.m.daocloud.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs:0.31.0
         python:
           image: ghcr.m.daocloud.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python::0.33b0
+  serviceMonitor:
+    adservice:
+      enabled: false
 
 opentelemetry-demo:
   enabled: true
+
+  opentelemetry-demo:
+    components:
+      adService:
+        enabled: false
